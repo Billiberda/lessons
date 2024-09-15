@@ -1,0 +1,99 @@
+/* Скидання стилів */
+
+@import url(reset.css);
+
+/* Основні стилі */
+
+* {
+    color: rgb(47, 42, 42);
+}
+
+h1 {
+    color: rgb(180, 32, 32);
+}
+
+p {
+    color: rgb(199, 117, 41);
+}
+
+h2 {
+    color: rgb(197, 166, 30);
+}
+
+.content li {
+    color: rgb(42, 177, 15);
+}
+
+.main h3 {
+    color: rgb(12, 167, 172);
+}
+
+.first {
+    color: rgb(66, 58, 212);
+}
+
+h5.basement {
+    color: rgb(15, 211, 15);
+}
+
+.second-menu li {
+    color: rgb(182, 49, 133);
+}
+
+.second-menu .third-menu li {
+    color: rgb(247, 0, 0);
+}
+
+.second-menu-classic a {
+    color: rgb(201, 225, 23);
+}
+
+.second-menu-sovok li {
+    color: rgb(175, 170, 184);
+}
+
+.second-menu-modern a {
+    color: rgb(69, 105, 119);
+}
+
+.second-menu-modern .third-menu a {
+    color: rgb(139, 25, 25);
+}
+
+div ul li {
+    color: rgb(255, 230, 0);
+}
+
+#genre,
+#thoughts,
+#theaters,
+#concert-instit,
+#musical-venues,
+#collectives,
+#unions {
+    color: rgb(221, 97, 255);
+}
+
+[class*="sub"] {
+    color: rgb(45, 157, 0);
+}
+
+* .text {
+    color: rgb(16, 137, 52);
+}
+
+.section-six > p {
+    color: black;
+}
+
+.item ~ li {
+    color: rgb(29, 114, 43);
+}
+
+.list-item + li {
+    color: goldenrod;
+}
+
+.section-three * {
+    color: rgb(195, 142, 142);
+}
