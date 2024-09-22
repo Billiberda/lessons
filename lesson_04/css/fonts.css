@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: 'MADE TOMMY';
+    src: url("../fonts/MADETOMMY.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE TOMMY';
+    src: url("../fonts/MADETOMMY-Bold.woff2") format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dream Orphans';
+    src: url("../fonts/DreamOrphans-Regular.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dream Orphans';
+    src: url("../fonts/DreamOrphans-Bold.woff2") format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Carving Soft PERSONAL USE';
+    src: url("../fonts/MADECarvingSoftPERSONALUSE-Regular.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Carving Soft PERSONAL USE SmBd';
+    src: url("../fonts/MADECarvingSoftPERSONALUSE-SemiBold.woff2") format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,152 @@
+/* Скидання стилів */
+
+
+@import url(reset.css);
+
+/* local fonts */
+
+@import url(fonts.css);
+
+/* plugin google fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap");
+
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+/* Основні стилі */
+
+
+.header__title {
+    font-family: "Chakra", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.3;
+    text-align: center;
+    text-transform: uppercase;
+    color: #444444;
+    background: #FFFFFF;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+
+.header__block-title,
+.benefits__title,
+.challenges__title {
+    font-family: "MADE TOMMY", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+.menu-item {
+    font-family: "Dream Orphans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(128, 128, 128);
+}
+
+.menu-item a {
+    text-decoration: solid underline rgb(227, 2, 2);
+}
+
+
+.quality__paragraph {
+    font-family: "MADE Carving Soft PERSONAL USE", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #884545;
+}
+
+.education {
+    font-family: "Barlow", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+
+.education__block-title {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: underline dotted black;
+    text-align: right;
+}
+
+.education__block-paragraph {
+    text-align: center;
+}
+
+.benefits,
+.challenges {
+    font-family: "Sofadi One", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.benefits__paragraph {
+    word-spacing: 10px;
+    text-align: right;
+}
+
+
+
+.challenges__paragraph {
+    letter-spacing: 10px;
+    text-align: justify;
+}
+
+.proffesional {
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.3;
+    color: #556070;
+    font-weight: 400;
+}
+.proffesional__title {
+    font-size: 38px;
+    font-weight: 600;
+    color: #132238;
+}
+
+.about {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #474464;
+}
+.about__title {
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 1;
+    color: #1E1B39;
+}
+
+.introduce {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #505F98;
+}
+.introduce__title {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #091133;
+    letter-spacing: 1px;
+}
