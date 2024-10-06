@@ -355,7 +355,6 @@
     width: 30px;
     height: 50px;
     background-color: green;
-    visibility: hidden;
 }
 
 .game__bobr div:nth-child(5) {
@@ -363,7 +362,6 @@
     width: 1200px;
     height: 20px;
     background-color: green;
-    visibility: hidden;
 }
 
 .game__bobr div:nth-child(6) {
@@ -371,7 +369,6 @@
     width: 20px;
     height: 40px;
     background-color: green;
-    visibility: hidden;
 }
 
 .game__bobr div:nth-child(10) {
@@ -380,7 +377,6 @@
     height: 40px;
     background-color: green;
     margin-inline-start: 1120px;
-    visibility: hidden;
 }
 
 .game__bobr div:nth-child(11) {
@@ -388,7 +384,6 @@
     width: 1140px;
     height: 10px;
     background-color: green;
-    visibility: hidden;
 }
 
 .game__bobr div:nth-child(12) {
@@ -396,7 +391,6 @@
     width: 10px;
     height: 40px;
     background-color: green;
-    visibility: hidden;
 }
 
 /* =================================================================
@@ -409,7 +403,6 @@
     height: 30px;
     background-color: red;
     margin-inline-start: 120px;
-    visibility: hidden;
 }
 
 .game__bobr-first div:nth-child(2) {
@@ -417,7 +410,6 @@
     height: 30px;
     background-color: red;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-first div:nth-child(3) {
@@ -425,7 +417,6 @@
     height: 30px;
     background-color: red;
     margin-inline-start: 80px;
-    visibility: hidden;
 }
 
 .game__bobr-first div:nth-child(4) {
@@ -433,7 +424,6 @@
     height: 30px;
     background-color: red;
     margin-inline-start: 80px;
-    visibility: hidden;
 }
 
 .game__bobr-first div:nth-child(5) {
@@ -441,7 +431,6 @@
     height: 30px;
     background-color: red;
     margin-inline-start: 80px;
-    visibility: hidden;
 }
 
 
@@ -463,7 +452,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-second div:nth-child(3) {
@@ -471,7 +459,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-second div:nth-child(4) {
@@ -479,7 +466,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-second div:nth-child(5) {
@@ -487,7 +473,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-second div:nth-child(6) {
@@ -495,7 +480,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 80px;
-    visibility: hidden;
 }
 
 .game__bobr-second div:nth-child(7) {
@@ -503,7 +487,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-second div:nth-child(8) {
@@ -511,7 +494,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 80px;
-    visibility: hidden;
 }
 
 .game__bobr-second div:nth-child(9) {
@@ -519,7 +501,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-second div:nth-child(10) {
@@ -527,7 +508,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 80px;
-    visibility: hidden;
 }
 
 .game__bobr-second div:nth-child(11) {
@@ -535,7 +515,6 @@
     width: 30px;
     background-color: green;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 /* =================================================================
@@ -547,7 +526,6 @@
     width: 150px;
     height: 30px;
     background-color: blue;
-    visibility: hidden;
 }
 
 .game__bobr-third div:nth-child(2) {
@@ -555,7 +533,6 @@
     height: 30px;
     background-color: blue;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-third div:nth-child(3) {
@@ -563,7 +540,6 @@
     height: 30px;
     background-color: blue;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-third div:nth-child(4) {
@@ -571,7 +547,6 @@
     height: 30px;
     background-color: blue;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-third div:nth-child(5) {
@@ -579,7 +554,6 @@
     height: 30px;
     background-color: blue;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 .game__bobr-third div:nth-child(6) {
@@ -587,7 +561,6 @@
     height: 40px;
     background-color: blue;
     margin-inline-start: 90px;
-    visibility: hidden;
 }
 
 
@@ -600,7 +573,6 @@
     width: 90px;
     height: 20px;
     background-color: red;
-    visibility: hidden;
 }
 
 .game__bobr-seven div:nth-child(2) {
@@ -608,7 +580,6 @@
     height: 20px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-seven div:nth-child(3) {
@@ -616,7 +587,6 @@
     height: 20px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-seven div:nth-child(4) {
@@ -624,7 +594,6 @@
     height: 20px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-seven div:nth-child(5) {
@@ -632,7 +601,6 @@
     height: 20px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-seven div:nth-child(6) {
@@ -640,7 +608,6 @@
     height: 20px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-seven div:nth-child(7) {
@@ -648,7 +615,6 @@
     height: 20px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-seven div:nth-child(8) {
@@ -656,7 +622,6 @@
     height: 20px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 /* =================================================================
@@ -669,7 +634,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(2) {
@@ -677,7 +641,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(3) {
@@ -685,7 +648,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(4) {
@@ -693,7 +655,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(5) {
@@ -701,7 +662,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(6) {
@@ -709,7 +669,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(7) {
@@ -717,7 +676,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(8) {
@@ -725,7 +683,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(9) {
@@ -733,7 +690,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(10) {
@@ -741,7 +697,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(11) {
@@ -749,7 +704,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(12) {
@@ -757,7 +711,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(13) {
@@ -765,7 +718,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(14) {
@@ -773,7 +725,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-eight div:nth-child(15) {
@@ -781,7 +732,6 @@
     width: 20px;
     background-color: green;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 /* =================================================================
@@ -794,7 +744,6 @@
     height: 20px;
     background-color: blue;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-nine div:nth-child(2) {
@@ -802,7 +751,6 @@
     height: 20px;
     background-color: blue;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-nine div:nth-child(3) {
@@ -810,7 +758,6 @@
     height: 20px;
     background-color: blue;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-nine div:nth-child(4) {
@@ -818,7 +765,6 @@
     height: 20px;
     background-color: blue;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-nine div:nth-child(5) {
@@ -826,7 +772,6 @@
     height: 20px;
     background-color: blue;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-nine div:nth-child(6) {
@@ -834,7 +779,6 @@
     height: 20px;
     background-color: blue;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-nine div:nth-child(7) {
@@ -842,7 +786,6 @@
     height: 20px;
     background-color: blue;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 .game__bobr-nine div:nth-child(8) {
@@ -850,11 +793,10 @@
     height: 20px;
     background-color: blue;
     margin-inline-start: 50px;
-    visibility: hidden;
 }
 
 /* =================================================================
-====   SEVEN =================================================================
+====   THIRTEEN =================================================================
 
 ================================================================ */
 
@@ -862,7 +804,6 @@
     width: 90px;
     height: 10px;
     background-color: red;
-    visibility: hidden;
 }
 
 .game__bobr-thirteen div:nth-child(2) {
@@ -870,7 +811,6 @@
     height: 10px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-thirteen div:nth-child(3) {
@@ -878,7 +818,6 @@
     height: 10px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-thirteen div:nth-child(4) {
@@ -886,7 +825,6 @@
     height: 10px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-thirteen div:nth-child(5) {
@@ -894,7 +832,6 @@
     height: 10px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-thirteen div:nth-child(6) {
@@ -902,7 +839,6 @@
     height: 10px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-thirteen div:nth-child(7) {
@@ -910,7 +846,6 @@
     height: 10px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-thirteen div:nth-child(8) {
@@ -918,7 +853,6 @@
     height: 10px;
     background-color: red;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 /* =================================================================
@@ -931,7 +865,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 80px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(2) {
@@ -939,7 +872,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(3) {
@@ -947,7 +879,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(4) {
@@ -955,7 +886,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(5) {
@@ -963,7 +893,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(6) {
@@ -971,7 +900,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(7) {
@@ -979,7 +907,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(8) {
@@ -987,7 +914,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(9) {
@@ -995,7 +921,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(10) {
@@ -1003,7 +928,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(11) {
@@ -1011,7 +935,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(12) {
@@ -1019,7 +942,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(13) {
@@ -1027,7 +949,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(14) {
@@ -1035,7 +956,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 60px;
-    visibility: hidden;
 }
 
 .game__bobr-fourteen div:nth-child(15) {
@@ -1043,7 +963,6 @@
     width: 10px;
     background-color: green;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 /* =================================================================
@@ -1056,7 +975,6 @@
     height: 10px;
     background-color: blue;
     margin-inline-start: 80px;
-    visibility: hidden;
 }
 
 .game__bobr-fifteen div:nth-child(2) {
@@ -1064,7 +982,6 @@
     height: 10px;
     background-color: blue;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fifteen div:nth-child(3) {
@@ -1072,7 +989,6 @@
     height: 10px;
     background-color: blue;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fifteen div:nth-child(4) {
@@ -1080,7 +996,6 @@
     height: 10px;
     background-color: blue;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fifteen div:nth-child(5) {
@@ -1088,7 +1003,6 @@
     height: 10px;
     background-color: blue;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fifteen div:nth-child(6) {
@@ -1096,7 +1010,6 @@
     height: 10px;
     background-color: blue;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fifteen div:nth-child(7) {
@@ -1104,7 +1017,6 @@
     height: 10px;
     background-color: blue;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 .game__bobr-fifteen div:nth-child(8) {
@@ -1112,15 +1024,77 @@
     height: 50px;
     background-color: blue;
     margin-inline-start: 70px;
-    visibility: hidden;
 }
 
 /* ================================================================= 
 ================== HOVERS =================================================================
 */
-.game__bobr-second div:nth-child(1):hover + .game__bobr-third div:nth-child(1),
+.game__bobr div:nth-child(4),
+.game__bobr div:nth-child(5),
+.game__bobr div:nth-child(6),
+.game__bobr div:nth-child(10),
+.game__bobr div:nth-child(11),
+.game__bobr div:nth-child(12) {
+    visibility: hidden;
+}
+
+.game__bobr>div>div {
+    visibility: hidden;
+}
+
+.game__bobr-second:has(div:nth-child(1):hover) + .game__bobr-third div:nth-child(1),
 .game__bobr-third div:nth-child(1):hover,
-.game__bobr-third div:nth-child(1):hover + .game__bobr-second div:nth-child(2),
-.game__bobr-second div:nth-child(2):hover {
+.game__bobr-second:has(+ .game__bobr-third div:nth-child(1):hover) div:nth-child(2),
+.game__bobr-second div:nth-child(2):hover,
+.game__bobr:has(.game__bobr-second div:nth-child(2):hover) .game__bobr-first div:nth-child(1),
+.game__bobr-first div:nth-child(1):hover,
+.game__bobr-first:has(div:nth-child(1):hover) + .game__bobr-second div:nth-child(3),
+.game__bobr-second div:nth-child(3):hover,
+.game__bobr-second:has(div:nth-child(3):hover) + .game__bobr-third div:nth-child(2),
+.game__bobr-third div:nth-child(2):hover,
+.game__bobr:has(.game__bobr-third div:nth-child(2):hover) .game__bobr-second div:nth-child(4),
+.game__bobr-second div:nth-child(4):hover,
+.game__bobr:has(.game__bobr-second div:nth-child(4):hover) .game__bobr-first div:nth-child(2),
+.game__bobr-first div:nth-child(2):hover,
+.game__bobr-first:has(div:nth-child(2):hover) + .game__bobr-second div:nth-child(5),
+.game__bobr-second div:nth-child(5):hover,
+.game__bobr-second:has(div:nth-child(5):hover) + .game__bobr-third div:nth-child(3),
+.game__bobr-third div:nth-child(3):hover,
+.game__bobr:has(.game__bobr-third div:nth-child(3):hover) .game__bobr-second div:nth-child(6),
+.game__bobr-second:nth-child(6):hover,
+.game__bobr:has(.game__bobr-second div:nth-child(6):hover) .game__bobr-first div:nth-child(3),
+.game__bobr-first div:nth-child(3):hover, 
+.game__bobr-first:has(div:nth-child(3):hover) + .game__bobr-second div:nth-child(7),
+.game__bobr-second div:nth-child(7):hover,
+.game__bobr-second:has(div:nth-child(7):hover) + .game__bobr-third div:nth-child(4),
+.game__bobr-third div:nth-child(4):hover,
+.game__bobr:has(.game__bobr-third div:nth-child(4):hover) .game__bobr-second div:nth-child(8),
+.game__bobr-second:nth-child(8):hover,
+.game__bobr:has(.game__bobr-second div:nth-child(8):hover) .game__bobr-first div:nth-child(4),
+.game__bobr-first div:nth-child(4):hover,
+.game__bobr-first:has(div:nth-child(4):hover) + .game__bobr-second div:nth-child(9),
+.game__bobr-second div:nth-child(9):hover,
+.game__bobr-second:has(div:nth-child(9):hover) + .game__bobr-third div:nth-child(5),
+.game__bobr-third div:nth-child(5):hover,
+.game__bobr:has(.game__bobr-third div:nth-child(5):hover) .game__bobr-second div:nth-child(10),
+.game__bobr-second:nth-child(10):hover,
+.game__bobr:has(.game__bobr-second div:nth-child(10):hover) .game__bobr-first div:nth-child(5),
+.game__bobr-first div:nth-child(5):hover,
+.game__bobr-first:has(div:nth-child(5):hover) + .game__bobr-second div:nth-child(11),
+.game__bobr-second div:nth-child(11):hover,
+.game__bobr-second:has(div:nth-child(11):hover) + .game__bobr-third div:nth-child(6),
+.game__bobr-third div:nth-child(6):hover
+{
+  visibility: visible;
+}
+
+.game__bobr:has(.game__bobr-third div:nth-child(6):hover) .game__bobr-four,
+.game__bobr-four:hover,
+.game__bobr-four:hover + .game__bobr-five,
+.game__bobr-five:hover{
+    visibility: visible;
+}
+
+.game__bobr-second div:nth-child(1) {
     visibility: visible;
 }
