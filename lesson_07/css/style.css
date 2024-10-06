@@ -322,14 +322,21 @@
     BOBR GAME
     */
 
-.header {}
+.header {
+    margin-block-end: 50px;
+}
 
-.game {}
+.game {
+    background: linear-gradient(to right, #a73737, #7a2828);
+}
 
 .game__bobr {
     max-width: 1200px;
     margin-inline: auto;
     font-size: 0;
+    background: url("../img/bobr_house.jpg") 1080px 540px / 100px no-repeat, url("../img/level_02.png") 500px 160px / 80px no-repeat,
+        url("../img/level_03.png") 520px 420px / 40px no-repeat,
+        url("../img/grass-level_01.jpg") top / cover no-repeat;
 }
 
 
@@ -349,11 +356,13 @@
 }
 
 
+
+
 .game__bobr div:nth-child(4) {
     font-size: 16px;
     margin-inline-start: 1170px;
     width: 30px;
-    height: 50px;
+    height: 80px;
     background-color: green;
 }
 
@@ -374,7 +383,7 @@
 .game__bobr div:nth-child(10) {
     font-size: 16px;
     width: 20px;
-    height: 40px;
+    height: 60px;
     background-color: green;
     margin-inline-start: 1120px;
 }
@@ -558,7 +567,7 @@
 
 .game__bobr-third div:nth-child(6) {
     width: 30px;
-    height: 40px;
+    height: 30px;
     background-color: blue;
     margin-inline-start: 90px;
 }
@@ -1021,7 +1030,7 @@
 
 .game__bobr-fifteen div:nth-child(8) {
     width: 10px;
-    height: 50px;
+    height: 10px;
     background-color: blue;
     margin-inline-start: 70px;
 }
@@ -1040,61 +1049,205 @@
 
 .game__bobr>div>div {
     visibility: hidden;
+    background: url("../img/bobr.jpg") center / 35px no-repeat;
 }
 
-.game__bobr-second:has(div:nth-child(1):hover) + .game__bobr-third div:nth-child(1),
+.game__bobr-second:has(div:nth-child(1):hover)+.game__bobr-third div:nth-child(1),
 .game__bobr-third div:nth-child(1):hover,
 .game__bobr-second:has(+ .game__bobr-third div:nth-child(1):hover) div:nth-child(2),
 .game__bobr-second div:nth-child(2):hover,
 .game__bobr:has(.game__bobr-second div:nth-child(2):hover) .game__bobr-first div:nth-child(1),
 .game__bobr-first div:nth-child(1):hover,
-.game__bobr-first:has(div:nth-child(1):hover) + .game__bobr-second div:nth-child(3),
+.game__bobr-first:has(div:nth-child(1):hover)+.game__bobr-second div:nth-child(3),
 .game__bobr-second div:nth-child(3):hover,
-.game__bobr-second:has(div:nth-child(3):hover) + .game__bobr-third div:nth-child(2),
+.game__bobr-second:has(div:nth-child(3):hover)+.game__bobr-third div:nth-child(2),
 .game__bobr-third div:nth-child(2):hover,
 .game__bobr:has(.game__bobr-third div:nth-child(2):hover) .game__bobr-second div:nth-child(4),
 .game__bobr-second div:nth-child(4):hover,
 .game__bobr:has(.game__bobr-second div:nth-child(4):hover) .game__bobr-first div:nth-child(2),
 .game__bobr-first div:nth-child(2):hover,
-.game__bobr-first:has(div:nth-child(2):hover) + .game__bobr-second div:nth-child(5),
+.game__bobr-first:has(div:nth-child(2):hover)+.game__bobr-second div:nth-child(5),
 .game__bobr-second div:nth-child(5):hover,
-.game__bobr-second:has(div:nth-child(5):hover) + .game__bobr-third div:nth-child(3),
+.game__bobr-second:has(div:nth-child(5):hover)+.game__bobr-third div:nth-child(3),
 .game__bobr-third div:nth-child(3):hover,
 .game__bobr:has(.game__bobr-third div:nth-child(3):hover) .game__bobr-second div:nth-child(6),
 .game__bobr-second div:nth-child(6):hover,
 .game__bobr:has(.game__bobr-second div:nth-child(6):hover) .game__bobr-first div:nth-child(3),
-.game__bobr-first div:nth-child(3):hover, 
-.game__bobr-first:has(div:nth-child(3):hover) + .game__bobr-second div:nth-child(7),
+.game__bobr-first div:nth-child(3):hover,
+.game__bobr-first:has(div:nth-child(3):hover)+.game__bobr-second div:nth-child(7),
 .game__bobr-second div:nth-child(7):hover,
-.game__bobr-second:has(div:nth-child(7):hover) + .game__bobr-third div:nth-child(4),
+.game__bobr-second:has(div:nth-child(7):hover)+.game__bobr-third div:nth-child(4),
 .game__bobr-third div:nth-child(4):hover,
 .game__bobr:has(.game__bobr-third div:nth-child(4):hover) .game__bobr-second div:nth-child(8),
 .game__bobr-second div:nth-child(8):hover,
 .game__bobr:has(.game__bobr-second div:nth-child(8):hover) .game__bobr-first div:nth-child(4),
 .game__bobr-first div:nth-child(4):hover,
-.game__bobr-first:has(div:nth-child(4):hover) + .game__bobr-second div:nth-child(9),
+.game__bobr-first:has(div:nth-child(4):hover)+.game__bobr-second div:nth-child(9),
 .game__bobr-second div:nth-child(9):hover,
-.game__bobr-second:has(div:nth-child(9):hover) + .game__bobr-third div:nth-child(5),
+.game__bobr-second:has(div:nth-child(9):hover)+.game__bobr-third div:nth-child(5),
 .game__bobr-third div:nth-child(5):hover,
 .game__bobr:has(.game__bobr-third div:nth-child(5):hover) .game__bobr-second div:nth-child(10),
 .game__bobr-second div:nth-child(10):hover,
 .game__bobr:has(.game__bobr-second div:nth-child(10):hover) .game__bobr-first div:nth-child(5),
 .game__bobr-first div:nth-child(5):hover,
-.game__bobr-first:has(div:nth-child(5):hover) + .game__bobr-second div:nth-child(11),
+.game__bobr-first:has(div:nth-child(5):hover)+.game__bobr-second div:nth-child(11),
 .game__bobr-second div:nth-child(11):hover,
-.game__bobr-second:has(div:nth-child(11):hover) + .game__bobr-third div:nth-child(6),
-.game__bobr-third div:nth-child(6):hover
-{
-  visibility: visible;
+.game__bobr-second:has(div:nth-child(11):hover)+.game__bobr-third div:nth-child(6),
+.game__bobr-third div:nth-child(6):hover {
+    visibility: visible;
 }
 
-.game__bobr:has(.game__bobr-third div:nth-child(6):hover) .game__bobr-four,
-.game__bobr-four:hover,
-.game__bobr-four:hover + .game__bobr-five,
-.game__bobr-five:hover{
+.game__bobr:has(.game__bobr-third div:nth-child(6):hover) div.game__bobr-four,
+div.game__bobr-four:hover,
+div.game__bobr-four:hover+div.game__bobr-five,
+div.game__bobr-five:hover,
+div.game__bobr-five:hover+div.game__bobr-six,
+div.game__bobr-six:hover,
+div.game__bobr-six:hover+.game__bobr-seven div:nth-child(1),
+.game__bobr-seven div:nth-child(1):hover,
+.game__bobr-seven:has(div:nth-child(1):hover)+.game__bobr-eight div:nth-child(1),
+.game__bobr-eight div:nth-child(1):hover,
+.game__bobr-eight:has(div:nth-child(1):hover)+.game__bobr-nine div:nth-child(1),
+.game__bobr-nine div:nth-child(1):hover,
+.game__bobr-eight:has(+ .game__bobr-nine div:nth-child(1):hover) div:nth-child(2),
+.game__bobr-eight div:nth-child(2):hover,
+.game__bobr:has(.game__bobr-eight div:nth-child(2):hover) .game__bobr-seven div:nth-child(2),
+.game__bobr-seven div:nth-child(2):hover,
+.game__bobr-seven:has(div:nth-child(2):hover)+.game__bobr-eight div:nth-child(3),
+.game__bobr-eight div:nth-child(3):hover,
+.game__bobr-eight:has(div:nth-child(3):hover)+.game__bobr-nine div:nth-child(2),
+.game__bobr-nine div:nth-child(2):hover,
+.game__bobr:has(.game__bobr-nine div:nth-child(2):hover) .game__bobr-eight div:nth-child(4),
+.game__bobr-eight div:nth-child(4):hover,
+.game__bobr:has(.game__bobr-eight div:nth-child(4):hover) .game__bobr-seven div:nth-child(3),
+.game__bobr-seven div:nth-child(3):hover,
+.game__bobr-seven:has(div:nth-child(3):hover)+.game__bobr-eight div:nth-child(5),
+.game__bobr-eight div:nth-child(5):hover,
+.game__bobr-eight:has(div:nth-child(5):hover)+.game__bobr-nine div:nth-child(3),
+.game__bobr-nine div:nth-child(3):hover,
+.game__bobr:has(.game__bobr-nine div:nth-child(3):hover) .game__bobr-eight div:nth-child(6),
+.game__bobr-eight div:nth-child(6):hover,
+.game__bobr:has(.game__bobr-eight div:nth-child(6):hover) .game__bobr-seven div:nth-child(4),
+.game__bobr-seven div:nth-child(4):hover,
+.game__bobr-seven:has(div:nth-child(4):hover)+.game__bobr-eight div:nth-child(7),
+.game__bobr-eight div:nth-child(7):hover,
+.game__bobr-eight:has(div:nth-child(7):hover)+.game__bobr-nine div:nth-child(4),
+.game__bobr-nine div:nth-child(4):hover,
+.game__bobr:has(.game__bobr-nine div:nth-child(4):hover) .game__bobr-eight div:nth-child(8),
+.game__bobr-eight div:nth-child(8):hover,
+.game__bobr:has(.game__bobr-eight div:nth-child(8):hover) .game__bobr-seven div:nth-child(5),
+.game__bobr-seven div:nth-child(5):hover,
+.game__bobr-seven:has(div:nth-child(5):hover)+.game__bobr-eight div:nth-child(9),
+.game__bobr-eight div:nth-child(9):hover,
+.game__bobr-eight:has(div:nth-child(9):hover)+.game__bobr-nine div:nth-child(5),
+.game__bobr-nine div:nth-child(5):hover,
+.game__bobr:has(.game__bobr-nine div:nth-child(5):hover) .game__bobr-eight div:nth-child(10),
+.game__bobr-eight div:nth-child(10):hover,
+.game__bobr:has(.game__bobr-eight div:nth-child(10):hover) .game__bobr-seven div:nth-child(6),
+.game__bobr-seven div:nth-child(6):hover,
+.game__bobr-seven:has(div:nth-child(6):hover)+.game__bobr-eight div:nth-child(11),
+.game__bobr-eight div:nth-child(11):hover,
+.game__bobr-eight:has(div:nth-child(11):hover)+.game__bobr-nine div:nth-child(6),
+.game__bobr-nine div:nth-child(6):hover,
+.game__bobr:has(.game__bobr-nine div:nth-child(6):hover) .game__bobr-eight div:nth-child(12),
+.game__bobr-eight div:nth-child(12):hover,
+.game__bobr:has(.game__bobr-eight div:nth-child(12):hover) .game__bobr-seven div:nth-child(7),
+.game__bobr-seven div:nth-child(7):hover,
+.game__bobr-seven:has(div:nth-child(7):hover)+.game__bobr-eight div:nth-child(13),
+.game__bobr-eight div:nth-child(13):hover,
+.game__bobr-eight:has(div:nth-child(13):hover)+.game__bobr-nine div:nth-child(7),
+.game__bobr-nine div:nth-child(7):hover,
+.game__bobr:has(.game__bobr-nine div:nth-child(7):hover) .game__bobr-eight div:nth-child(14),
+.game__bobr-eight div:nth-child(14):hover,
+.game__bobr:has(.game__bobr-eight div:nth-child(14):hover) .game__bobr-seven div:nth-child(8),
+.game__bobr-seven div:nth-child(8):hover,
+.game__bobr-seven:has(div:nth-child(8):hover)+.game__bobr-eight div:nth-child(15),
+.game__bobr-eight div:nth-child(15):hover,
+.game__bobr-eight:has(div:nth-child(15):hover)+.game__bobr-nine div:nth-child(8),
+.game__bobr-nine div:nth-child(8):hover {
+    visibility: visible;
+}
+
+.game__bobr:has(.game__bobr-nine div:nth-child(8):hover) div.game__bobr-ten,
+div.game__bobr-ten:hover,
+div.game__bobr-ten:hover+div.game__bobr-eleven,
+div.game__bobr-eleven:hover,
+div.game__bobr-eleven:hover+div.game__bobr-twelwe,
+div.game__bobr-twelwe:hover,
+div.game__bobr-twelwe:hover+.game__bobr-thirteen div:nth-child(1),
+.game__bobr-thirteen div:nth-child(1):hover,
+.game__bobr-thirteen:has(div:nth-child(1):hover)+.game__bobr-fourteen div:nth-child(1),
+.game__bobr-fourteen div:nth-child(1):hover,
+.game__bobr-fourteen:has(div:nth-child(1):hover)+.game__bobr-fifteen div:nth-child(1),
+.game__bobr-fifteen div:nth-child(1):hover,
+.game__bobr-fourteen:has(+ .game__bobr-fifteen div:nth-child(1):hover) div:nth-child(2),
+.game__bobr-fourteen div:nth-child(2):hover,
+.game__bobr:has(.game__bobr-fourteen div:nth-child(2):hover) .game__bobr-thirteen div:nth-child(2),
+.game__bobr-thirteen div:nth-child(2):hover,
+.game__bobr-thirteen:has(div:nth-child(2):hover)+.game__bobr-fourteen div:nth-child(3),
+.game__bobr-fourteen div:nth-child(3):hover,
+.game__bobr-fourteen:has(div:nth-child(3):hover)+.game__bobr-fifteen div:nth-child(2),
+.game__bobr-fifteen div:nth-child(2):hover,
+.game__bobr:has(.game__bobr-fifteen div:nth-child(2):hover) .game__bobr-fourteen div:nth-child(4),
+.game__bobr-fourteen div:nth-child(4):hover,
+.game__bobr:has(.game__bobr-fourteen div:nth-child(4):hover) .game__bobr-thirteen div:nth-child(3),
+.game__bobr-thirteen div:nth-child(3):hover,
+.game__bobr-thirteen:has(div:nth-child(3):hover)+.game__bobr-fourteen div:nth-child(5),
+.game__bobr-fourteen div:nth-child(5):hover,
+.game__bobr-fourteen:has(div:nth-child(5):hover)+.game__bobr-fifteen div:nth-child(3),
+.game__bobr-fifteen div:nth-child(3):hover,
+.game__bobr:has(.game__bobr-fifteen div:nth-child(3):hover) .game__bobr-fourteen div:nth-child(6),
+.game__bobr-fourteen div:nth-child(6):hover,
+.game__bobr:has(.game__bobr-fourteen div:nth-child(6):hover) .game__bobr-thirteen div:nth-child(4),
+.game__bobr-thirteen div:nth-child(4):hover,
+.game__bobr-thirteen:has(div:nth-child(4):hover)+.game__bobr-fourteen div:nth-child(7),
+.game__bobr-fourteen div:nth-child(7):hover,
+.game__bobr-fourteen:has(div:nth-child(7):hover)+.game__bobr-fifteen div:nth-child(4),
+.game__bobr-fifteen div:nth-child(4):hover,
+.game__bobr:has(.game__bobr-fifteen div:nth-child(4):hover) .game__bobr-fourteen div:nth-child(8),
+.game__bobr-fourteen div:nth-child(8):hover,
+.game__bobr:has(.game__bobr-fourteen div:nth-child(8):hover) .game__bobr-thirteen div:nth-child(5),
+.game__bobr-thirteen div:nth-child(5):hover,
+.game__bobr-thirteen:has(div:nth-child(5):hover)+.game__bobr-fourteen div:nth-child(9),
+.game__bobr-fourteen div:nth-child(9):hover,
+.game__bobr-fourteen:has(div:nth-child(9):hover)+.game__bobr-fifteen div:nth-child(5),
+.game__bobr-fifteen div:nth-child(5):hover,
+.game__bobr:has(.game__bobr-fifteen div:nth-child(5):hover) .game__bobr-fourteen div:nth-child(10),
+.game__bobr-fourteen div:nth-child(10):hover,
+.game__bobr:has(.game__bobr-fourteen div:nth-child(10):hover) .game__bobr-thirteen div:nth-child(6),
+.game__bobr-thirteen div:nth-child(6):hover,
+.game__bobr-thirteen:has(div:nth-child(6):hover)+.game__bobr-fourteen div:nth-child(11),
+.game__bobr-fourteen div:nth-child(11):hover,
+.game__bobr-fourteen:has(div:nth-child(11):hover)+.game__bobr-fifteen div:nth-child(6),
+.game__bobr-fifteen div:nth-child(6):hover,
+.game__bobr:has(.game__bobr-fifteen div:nth-child(6):hover) .game__bobr-fourteen div:nth-child(12),
+.game__bobr-fourteen div:nth-child(12):hover,
+.game__bobr:has(.game__bobr-fourteen div:nth-child(12):hover) .game__bobr-thirteen div:nth-child(7),
+.game__bobr-thirteen div:nth-child(7):hover,
+.game__bobr-thirteen:has(div:nth-child(7):hover)+.game__bobr-fourteen div:nth-child(13),
+.game__bobr-fourteen div:nth-child(13):hover,
+.game__bobr-fourteen:has(div:nth-child(13):hover)+.game__bobr-fifteen div:nth-child(7),
+.game__bobr-fifteen div:nth-child(7):hover,
+.game__bobr:has(.game__bobr-fifteen div:nth-child(7):hover) .game__bobr-fourteen div:nth-child(14),
+.game__bobr-fourteen div:nth-child(14):hover,
+.game__bobr:has(.game__bobr-fourteen div:nth-child(14):hover) .game__bobr-thirteen div:nth-child(8),
+.game__bobr-thirteen div:nth-child(8):hover,
+.game__bobr-thirteen:has(div:nth-child(8):hover)+.game__bobr-fourteen div:nth-child(15),
+.game__bobr-fourteen div:nth-child(15):hover,
+.game__bobr-fourteen:has(div:nth-child(15):hover)+.game__bobr-fifteen div:nth-child(8),
+.game__bobr-fifteen div:nth-child(8):hover {
     visibility: visible;
 }
 
 .game__bobr-second div:nth-child(1) {
     visibility: visible;
+}
+
+h1 {
+    font-family: "DM Sans",sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 900;
+    margin-block-end: 20px;
 }
