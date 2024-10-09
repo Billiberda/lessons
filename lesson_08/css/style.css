@@ -1,0 +1,91 @@
+/* Скидання стилів */
+
+
+@import url(reset.css);
+
+/* local fonts */
+
+@import url(fonts.css);
+
+/* plugin google fonts */
+
+
+
+/* Google Fonts */
+
+
+/* Основні стилі */
+
+body {
+    font-family: "Verdana", "Geneva", "Tahoma", sans-serif;
+    color: whitesmoke;
+    background-color: #28293E;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.main-container,
+.header-container,
+footer {
+    max-width: 1230px;
+    margin-inline: auto;
+    padding-inline: 15px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.main-container > div {
+    margin-inline: auto;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.title {
+    padding: 50px;
+    background-color: rosybrown;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    text-decoration: underline;
+    color: #28293E;
+}
+
+.logo {
+    padding: 20px;
+}
+
+a {
+    vertical-align: middle;
+}
+
+h2, p {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.first-img img {
+    max-width: 900px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h3 {
+    background-color: rosybrown;
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    text-decoration: underline;
+    color: #28293E;
+}
