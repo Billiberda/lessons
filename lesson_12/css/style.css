@@ -387,7 +387,7 @@
     animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-direction: forwards;
+    /* animation-direction: forwards; */
 }
 
 .wheels__first {
@@ -706,7 +706,7 @@
     background: rebeccapurple;
     border-radius: 50px;
     position: absolute;
-    bottom: 500px;
+    bottom: 300px;
     left: 450px;
     max-width: 300px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
