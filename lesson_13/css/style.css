@@ -41,9 +41,6 @@ footer {
     text-align: center;
 }
 
-.header__container {}
-
-.header__title {}
 
 .main {
     font-family: "Epilogue", sans-serif;
@@ -136,6 +133,15 @@ footer {
 
 .work__link:hover {
     color: #fff;
+}
+
+.work__link {
+    display: flex;
+    gap: 3px;
+}
+
+.work__link sup {
+    margin-top: -8px;
 }
 
 
@@ -281,21 +287,39 @@ footer {
 }
 
 .started__content {
-    position: relative;
+    transform: translateY(-21%);
 }
 
-.started__content::before {
-    content: "";
-    width: 148px;
-    height: 148px;
-    background: url("../img/splash-started.svg") no-repeat;
-    position: absolute;
-    top: -140px;
-    left: 0;
-    animation-name:rotate;
-    animation-duration: 10s, 10s;
+
+ .content-started__icon {
+    max-width: 148px;
+    margin-bottom: 19px;
+    position: relative;
+    left: -16px;
+    animation-name:move-icon;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move-icon {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translate(100%);
+    }
+}
+
+
+.content-started__img-bg {
+    max-width: 148px;
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes rotate {
@@ -307,19 +331,14 @@ footer {
     }
 }
 
-
-
-
-.started__content::after {
-    content: "";
-    width: 32px;
-    height: 32px;
-    background: url("../img/box-started.svg") no-repeat;
+.content-started__img {
+    max-width: 32px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     position: absolute;
-    top: -50%;
-    left: 60px;
-    transform: translateY(50%);
 }
+
 
 .content-started__label--text-align {
     text-align: left;
