@@ -194,6 +194,13 @@ footer {
     border-bottom: 1.5px solid #A53DFF;
 }
 
+.form-project__wrapper>input:focus,
+.form-project__budget:focus,
+.form-project__subject:focus,
+.form-project__message:focus {
+    outline: none;
+}
+
 .form-project__wrapper>input:focus::placeholder,
 .form-project__budget:focus::placeholder,
 .form-project__subject:focus::placeholder,
@@ -306,6 +313,7 @@ div>label {
     gap: 12px;
 }
 
+
 .form-dark__name input,
 .form-dark__last-name input,
 .form-dark__email input,
@@ -316,6 +324,14 @@ div>label {
     padding: 16px;
     min-width: 350px;
     color: #FFF;
+}
+
+.form-dark__name input:focus-visible,
+.form-dark__last-name input:focus-visible,
+.form-dark__email input:focus-visible,
+.form-dark__phone input:focus-visible,
+.form-dark__message textarea:focus-visible {
+    outline: none;
 }
 
 .form-dark div > input::placeholder,
