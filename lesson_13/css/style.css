@@ -720,18 +720,20 @@ footer {
     .started__img {
         flex-basis: 270px;
     }
-    
+
     .started__img::before {
         max-width: 240px;
         height: 140px;
         bottom: 30px;
     }
+
     .started__img::after {
         max-width: 214px;
         height: 140px;
         bottom: 20px;
     }
 }
+
 .main__events {
     padding: 70px 0 70px 0;
 }
@@ -884,6 +886,10 @@ footer {
     text-align: left;
 }
 
+.content__title--text-align {
+    text-wrap: balance;
+}
+
 
 .our-team__arrows {
     display: flex;
@@ -927,7 +933,9 @@ footer {
 }
 
 .our-team__profile {
-    flex-basis: 25%;
+    flex-basis: 270px;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .our-team__img {
@@ -973,6 +981,21 @@ footer {
     cursor: pointer;
 }
 
+.our-team__items div:nth-child(4),
+.our-team__items div:nth-child(5),
+.our-team__items div:nth-child(6) {
+    display: none;
+}
+
+@media (max-width: 740px) {
+
+    .our-team__items div:nth-child(4),
+    .our-team__items div:nth-child(5),
+    .our-team__items div:nth-child(6) {
+        display: block;
+    }
+}
+
 .our-team__items div:hover {
     background: #EF6D58;
     border: none;
@@ -987,12 +1010,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .founder__img {
     border-radius: 5px;
-    flex-shrink: 0;
+    flex-basis: 570;
+    flex-shrink: 1;
 }
 
 .founder__img img {
@@ -1003,6 +1028,7 @@ footer {
 .founder__content {
     position: relative;
     flex-basis: 470px;
+    flex-shrink: 1;
 }
 
 .founder__content::before {
@@ -1028,6 +1054,43 @@ footer {
     line-height: 1.2;
     margin-bottom: 44px;
 }
+
+@media (max-width: 1100px) {
+    .founder__block {
+        justify-content: center;
+    }
+
+    .founder__content {
+        text-align: center;
+        flex-basis: 100%;
+    }
+    .founder__title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .content__label--margin {
+        text-align: center;
+    }
+}
+
+@media (max-width: 565px) {
+    .founder__title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 540px) {
+    .content__label--margin {
+        text-align: left;
+    }
+
+    .founder__content {
+        text-align: left;
+    }
+}
+
 
 .founder__name {
     color: #fff;
