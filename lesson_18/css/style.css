@@ -164,7 +164,7 @@ body {
 .grid-page__item:nth-child(17n + 8) .grid-page__content img:hover,
 .grid-page__item:nth-child(17n + 9) .grid-page__content img:hover {
     filter: grayscale(0%);
-    filter: grey;
+    filter: gray;
     filter: none;
     transition: 1s ease;
 }
