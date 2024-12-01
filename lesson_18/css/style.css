@@ -164,7 +164,7 @@ body {
 .grid-page__item:nth-child(17n + 8) .grid-page__content img:hover,
 .grid-page__item:nth-child(17n + 9) .grid-page__content img:hover {
     filter: grayscale(0%);
-    filter: gray;
+    filter: grey;
     filter: none;
     transition: 1s ease;
 }
@@ -345,7 +345,7 @@ body {
 
 @keyframes move-up {
     0% {
-        transform:translatY(1000%);
+        transform:translateY(1000%);
     }
     100% {
         transform:translateY(0%);
