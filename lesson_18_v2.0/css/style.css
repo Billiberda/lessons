@@ -229,7 +229,6 @@ main {
     width: 0;
     height: 0;
     margin: 0;
-
 }
 
 .open-menu .icon-menu::before {
@@ -856,7 +855,7 @@ main {
         grid-template-columns: 1fr 1fr;
     }
 
-    .button__header {
+    .header__button {
         display: none;
     }
 }
