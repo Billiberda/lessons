@@ -1079,7 +1079,7 @@ main {
 
 @media (max-width: 442px) {
     .bottom {
-        gap 20px
+        gap: 20px;
     }
 
     .bottom__social {
