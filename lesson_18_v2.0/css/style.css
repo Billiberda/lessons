@@ -241,6 +241,10 @@ main {
     background-color: #fff;
 }
 
+.open-menu body {
+    overflow: hidden;
+}
+
 .header__button:hover {
     background-color: transparent;
 }
