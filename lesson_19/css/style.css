@@ -1,0 +1,38 @@
+/* Скидання стилів */
+
+
+@import url(reset.css);
+
+/* local fonts */
+
+@import url(fonts.css);
+
+/* plugin google fonts */
+@import url("https://fonts.googleapis.com/css?family=Epilogue:400,800&display=swap");
+
+/* Google Fonts */
+
+
+/* Основні стилі */
+
+body {
+    background: linear-gradient(to right, #544a7d, #ffd452);
+    color: #fff;
+    font-size: 16px;
+    font-family: "Epilogue", sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+[class*="__container"] {
+    max-width: 1338px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
