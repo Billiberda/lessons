@@ -644,7 +644,7 @@ address {
     padding: 0.6875rem 1.4375rem;
 }
 
-.image-user__icon:hover #Social path {
+.image-user__icon:hover path {
     fill: var(--mainBg);
 }
 
@@ -778,7 +778,7 @@ address {
     transition: background-color 0.3s;
 }
 
-.cards-process__item:hover .cards-process__icon #Vector {
+.cards-process__item:hover .cards-process__icon path {
     fill: #fff;
     transition: fill 0.3s;
 }
@@ -1325,13 +1325,13 @@ address {
     cursor: pointer;
 }
 
-.company__google:hover #google #Vector,
+.company__google:hover #google path:first-child,
 .company__google:hover #google #Vector_5 {
     fill: #4285f4;
     transition: fill 0.3s;
 }
 
-.company__google:hover #google #Vector_3,
+.company__google:hover #google path:nth-child(3),
 .company__google:hover #google #Vector_6 {
     fill: #ea4335;
     transition: fill 0.3s;
@@ -1342,7 +1342,7 @@ address {
     transition: fill 0.3s;
 }
 
-.company__google:hover #google #Vector_2 {
+.company__google:hover #google path:nth-child(2) {
     fill: #34a853;
     transition: fill 0.3s;
 }
@@ -1368,8 +1368,8 @@ address {
     fill: #fff;
 }
 
-.company__linkedin:hover #linkedin #Vector_2,
-.company__linkedin:hover #linkedin #Vector_3 {
+.company__linkedin:hover #linkedin path:nth-child(2),
+.company__linkedin:hover #linkedin path:nth-child(3) {
     fill: #000;
     transition: fill 0.3s;
 }
@@ -1383,12 +1383,12 @@ address {
     cursor: pointer;
 }
 
-.company__amazon:hover #amazon #Vector {
+.company__amazon:hover #amazon path {
     fill: #000;
     transition: fill 0.3s;
 }
-.company__amazon:hover #Group #Vector_2,
-.company__amazon:hover #Group #Vector_3 {
+.company__amazon:hover #Group path:first-child,
+.company__amazon:hover #Group path:nth-child(2) {
     fill: #fa9917;
     transition: fill 0.3s;
 }
@@ -1397,7 +1397,7 @@ address {
     cursor: pointer;
 }
 
-.company__medium:hover #medium #Vector {
+.company__medium:hover #medium path {
     fill: #000;
     transition: fill 0.3s;
 }
@@ -1406,7 +1406,7 @@ address {
     cursor: pointer;
 }
 
-.company__spotify:hover #spotify #Vector {
+.company__spotify:hover #spotify path {
     fill: #000;
     transition: fill 0.3s;
 }
@@ -1722,7 +1722,7 @@ address {
     max-width: 208px;
 }
 
-.footer__logo #word {
+.footer__logo path:nth-child(3) {
     fill: var(--mainBg);
 }
 
